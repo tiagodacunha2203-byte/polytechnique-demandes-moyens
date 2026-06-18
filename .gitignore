@@ -1,0 +1,20 @@
+config.properties
+
+*.class
+
+# === Fichiers temporaires de l'IDE ===
+.vscode/
+.idea/
+*.iml
+
+# === Fichiers systeme ===
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# === Logs et caches ===
+*.log
+.gradle/
+target/
+build/
+out/

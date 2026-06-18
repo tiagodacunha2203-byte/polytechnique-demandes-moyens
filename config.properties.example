@@ -1,0 +1,18 @@
+# Configuration de l'application Interface Demandes de Moyens
+# 
+# INSTRUCTIONS :
+# 1. Renommez ce fichier en "config.properties"
+# 2. Remplacez les valeurs ci-dessous par les vraies
+# 3. Le fichier config.properties est ignore par Git
+#    pour ne pas exposer le token API
+
+# Token API Asana (Personal Access Token)
+# A obtenir sur https://app.asana.com/0/my-apps
+asana.token=VOTRE_TOKEN_ASANA_ICI
+
+# ID du projet Asana a interroger
+# Visible dans l'URL du projet sur Asana
+asana.project.id=VOTRE_PROJECT_ID_ICI
+
+# Port d'ecoute du serveur (par defaut 8080)
+serveur.port=8080
